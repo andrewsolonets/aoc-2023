@@ -35,7 +35,7 @@ function solve(cards: Card[]) {
     acc[card.cardNumber] = 1;
     return acc;
   }, {});
-  console.log(cardInstances);
+  // console.log(cardInstances);
   for (let i = 0; i < cards.length; i++) {
     const card = cards[i];
     const hits = checkNumberOfWins(card);
